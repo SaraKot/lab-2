@@ -1,0 +1,10 @@
+# EXERCISES## Create (but don't run) a hello-world container without specifying a nameCommand:
+vboxuser@CSE5006:~$ docker create hello-world
+vboxuser@CSE5006:~$ docker ps -a
+CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS    PORTS     NAMES
+1df3e4febfe3   hello-world   "/hello"   29 minutes ago   Created             tender_jackson
+vboxuser@CSE5006:~$ docker rm 1df3e4febfe3
+1df3e4febfe3
+vboxuser@CSE5006:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
